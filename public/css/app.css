@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #7a28f5;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #816dc6
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.alert {
+    text-align: center;
+    background-color: #d3c9f5;
+    color: #252525;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #7a28f5;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    text-align: center;
+    justify-content: center;
+    width: 102%;
+    padding: 10px;
+    background-color: #7a28f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #816dc6
+}
+
+.btn-action {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 93%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    color: #7a28f5;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.text-center {
+    text-align: center;
+}

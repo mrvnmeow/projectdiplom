@@ -1,0 +1,71 @@
+body {
+    background-color: #f3f4f6; /* Светлый фон для всей страницы */
+    font-family: 'Arial', sans-serif; /* Шрифт для всего документа */
+}
+
+.calendar-container {
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: 40px auto; /* Центрирование контейнера по вертикали и горизонтали */
+    padding: 20px; /* Внутренние отступы */
+    background-color: #ffffff; /* Белый фон для контейнера */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+.calendar-header {
+    display: flex; /* Используем flexbox для заголовка */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.calendar-header h1 {
+    font-size: 24px; /* Размер шрифта заголовка */
+    color: #333; /* Цвет заголовка */
+}
+
+.calendar-header .btn {
+    padding: 10px 15px; /* Внутренние отступы для кнопок */
+    background-color: #4f46e5; /* Цвет фона кнопок */
+    color: white; /* Цвет текста кнопок */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругленные углы для кнопок */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.calendar-header .btn:hover {
+    background-color: #4338ca; /* Цвет фона при наведении */
+}
+
+.calendar-grid {
+    display: grid; /* Используем grid для сетки календаря */
+    grid-template-columns: repeat(7, 1fr); /* 7 колонок для дней недели */
+    gap: 10px; /* Промежутки между ячейками */
+}
+
+.calendar-day {
+    background-color: #f9fafb; /* Светлый фон ячеек */
+    border: 1px solid #e5e7eb; /* Граница ячеек */
+    border-radius: 5px; /* Закругленные углы ячеек */
+    padding: 15px; /* Внутренние отступы ячеек */
+    text-align: center; /* Центрирование текста */
+    position: relative; /* Для позиционирования событий */
+    min-height: 100px; /* Минимальная высота ячеек */
+}
+
+.calendar-day strong {
+    display: block; /* Отображение заголовка дня в блоке */
+    margin-bottom: 5px; /* Отступ снизу */
+    font-weight: bold; /* Жирный шрифт для заголовка дня */
+}
+
+.event {
+    background-color: #3b82f6; /* Цвет фона для событий */
+    color: white; /* Цвет текста */
+    padding: 5px; /* Внутренние отступы */
+    margin-top: 5px; /* Отступ сверху для событий */
+    border-radius: 3px; /* Закругленные углы для событий */
+    font-size: 12px; /* Размер шрифта для событий */
+    text-align: left; /* Выравнивание текста по левому краю */
+}
